@@ -1,0 +1,53 @@
+.app-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.app-logo {
+  width: 20%;
+}
+
+.app-logo img {
+  width: 100%;
+}
+
+.app-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+}
+
+.main-navigation {
+  width: 80%;
+}
+
+.main-navigation > span {
+  padding: 0 30px;
+  border-right: 2px solid #ffffff;
+}
+
+.main-navigation > span:last-child  {
+  border: none;
+}
+
+.main-navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.app-footer {
+  background: #282c34;
+  padding: 50px 30px;
+  color: #ffffff;
+}
+
+.main-content {
+  padding: 50px 30px;
+  background: #eeeeee;
+}

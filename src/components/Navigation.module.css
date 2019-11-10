@@ -1,0 +1,17 @@
+.navigation {
+    width: 80%;
+}
+
+.navigation > span {
+    padding: 0 30px;
+    border-right: 2px solid #ffffff;
+}
+
+.navigation > span:last-child  {
+    border: none;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+}

@@ -1,6 +1,6 @@
-import logo from "../logo.png";
+import logo from "../../logo.png";
 import React from "react";
-import Navigation from "./Navigation";
+import Navigation from "../Navigation/Navigation";
 import s from "./Header.module.css";
 
 function Header() {

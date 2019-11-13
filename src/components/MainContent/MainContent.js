@@ -8,9 +8,9 @@ import Info from "../Pages/Info/Info";
 function MainContent() {
     return (
         <main className={s.main_content}>
-            <Route path="//" component={Index}/>
-            <Route path="/info" component={Info}/>
-            <Route path="/about" component={About}/>
+            <Route exact path="/" component={Index} />
+            <Route exact path="/info" component={Info} />
+            <Route exact path="/about" component={About} />
         </main>
     );
 }

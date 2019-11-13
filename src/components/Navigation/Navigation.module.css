@@ -15,3 +15,7 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+.navigation a.active {
+    color: #999999;
+}

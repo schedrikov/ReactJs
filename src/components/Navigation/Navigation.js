@@ -8,12 +8,15 @@ function NavElement(props) {
     );
 }
 
-function Navigation() {
+function Navigation(props) {
+
+    let navList = props.state.nav.map(value =>
+        <NavElement url={value.url} name={value.name}/>
+    );
+
     return (
         <nav className={css.navigation}>
-            <NavElement url='/' name='Home'/>
-            <NavElement url='/info/' name='Info'/>
-            <NavElement url='/about/' name='About'/>
+            {navList}
         </nav>
     );
 }

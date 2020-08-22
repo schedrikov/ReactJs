@@ -1,0 +1,29 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.link {
+    background: #282c34;
+    padding: 10px 20px;
+    min-height: 120px;
+}
+
+.link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.image {
+    height: 140px;
+}
+
+.image img {
+    width: 100%;
+}
